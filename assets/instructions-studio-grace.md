@@ -44,60 +44,60 @@ Green Pea: #629076
 Inter Regular 400  
 Fontsize: 18px  
 Line height: 26px  
-Paragraph height: 30px
+Paragraph height: 30px  
 Letter spacing: -0.4px
 
 **Header 1**  
 Inter Black 900 (Uppercase, Italic)  
-40px
-Line height: 40px
+40px  
+Line height: 40px  
 Letter spacing: -0.8px
 
 **Header 2**  
-Inter Black 900 (Uppercase)
-80px
-Line height: 80px
+Inter Black 900 (Uppercase)  
+80px  
+Line height: 80px  
 Letter spacing: -0.4px
 
 **Header 3**  
 Inter Black 900 (Uppercase, Italic)  
-20px
-Line height: 20px
+20px  
+Line height: 20px  
 Letter spacing: -0.4px
 
 **Header 4, 5, 6**  
 Inter Bold 700 (Uppercase, Italic)  
-18px
-Line height: 18px
+18px  
+Line height: 18px  
 Letter spacing: -0.4px
 
 **Quotes**  
 Inter Black 900 (Italic)  
-24px
-Line height: 32px
+24px  
+Line height: 32px  
 Letter spacing: -0.8px
 
 **Hyperlinks**  
 Inter (Italic)  
-18px
-Line height: auto
+18px  
+Line height: auto  
 Letter spacing: 0%
 
 **Short text**  
-Inter Regular 400
-16px
-Line height: 30px
+Inter Regular 400  
+16px  
+Line height: 30px  
 Letter spacing: -0.8px
 
 **Faded text**  
-Inter Regular 400
-14px
-Line height: auto
+Inter Regular 400  
+14px  
+Line height: auto  
 Letter spacing: -0.8px
 
 # Available states for buttons, hyperlinks and inputs
 
-Please se FIGMA for prototypes.
+Please see FIGMA for prototypes.
 
 ### Buttons
 
@@ -114,6 +114,8 @@ DEFAULT - HOVER - ON CLICKED - DISABLED
 ### Hyperlinks
 
 DEFAULT - HOVER - ACTIVE - VISITED
+
+On hover for the hyperlinks, the lines above and under should be drawn from the center and out when hovering. [See this link for inspiration.](https://stackoverflow.com/questions/73243542/how-to-make-a-line-spread-from-the-center-to-the-sides-upon-hover)
 
 ---
 
@@ -141,9 +143,15 @@ The documentation for the Locomotive dependency is found here:
 
 [LOGO](logo) provided logos are as follow: flat white, flat black, green and pink. Please see FIGMA for required backgrounds and placement.
 
-[MENU](menu) as the menubutton at the top of the page.
+[MENU](menu) as the menubutton at the top of the page. On hover, the png should tilt 15degrees with the nail as axis and with a bouncy animation on 800ms time. (See Figma for prototype)
+When scrolling down, after 100vh an [icon](https://www.flaticon.com/free-icon/menu_151409) is shown instead with the color Onyx (#1E1E1E) at size 45x45 and margin 15px. When scrolling up to the first 100vh the menu icon should disappear again.
 
 [SERVICE BUTTONS](services) complete illustrations for the services section as svg-files.
+
+#### IMAGES
+
+When hovering images on desktop, they should move in front my getting a high z-index.
+When hovering on all devices, there should be a slight zoom of 5% in on the image but without increacing the size of the image. [CodePen for Image Zoom effect](https://codepen.io/Oskar-Landstr-m/pen/ExJLWPL)
 
 # Favicons
 
