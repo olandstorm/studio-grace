@@ -5,7 +5,16 @@ https://www.figma.com/file/keyrmSAxvinaBNFZb7HsLN/Studio-grace?type=design&mode=
 
 # Color guides
 
-Primary colors:
+**Primary colors:**  
+Dark Pine: #365243  
+Mint Condition: #E8E8E8  
+Flamingo: #F49C98
+
+**Secondary colors:**  
+Burnt Yellow: #FCD68F  
+Salmon: #F1C2A6  
+Onyx: #1E1E1E  
+Green Pea: #629076
 
 # Fonts and typography
 
@@ -41,6 +50,8 @@ Provided in the assetsfolder are the following folders:
 arrows
 Arrows are named in chronological order according to the flow of the page
 Arrow mobile
+
+[CodePen for lamp](https://codepen.io/Oskar-Landstr-m/pen/LYvdapz)
 
 # Favicons
 
