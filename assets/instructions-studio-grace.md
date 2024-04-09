@@ -1,7 +1,25 @@
-# STUDIO GRACE
+<img src="logo/white/studio_grace_logo_white.png" alt="alt text" style="width: 250px; height: auto;">
 
-Link to FIGMA:
-https://www.figma.com/file/keyrmSAxvinaBNFZb7HsLN/Studio-grace?type=design&mode=design&t=hUI5paG6Q642oHm2-1
+# Figma
+
+[Please click on this link to view the pages 'Design' and 'Graphics & guidelines' in Figma](https://www.figma.com/file/keyrmSAxvinaBNFZb7HsLN/Studio-grace?type=design&mode=design&t=hUI5paG6Q642oHm2-1)
+
+### In Design you will find:
+
+- mobile design
+- tablet design
+- desktop design
+- mobile design with menu open
+- tablet design with menu open
+- desktop design with menu open
+
+### In Graphics & guidelines you will find:
+
+- A color guide with primary and secondary colors as well as color combinations
+- Fonts & typography for H1 - H6, paragraphs, hyperlinks, quotes and short texts.
+- Logo variations on set backgrounds: flat black, flat white, pink and green variations and which backgrounds they should be used against.
+- favicons for dark and lightmode
+- components for: cookies, footer, buttons, hyperlinks, input including default and hoverstates.
 
 # Color guides
 
@@ -18,60 +36,118 @@ Green Pea: #629076
 
 # Fonts and typography
 
-Inter  
-https://fonts.google.com/specimen/Inter?selected=Material+Symbols+Outlined:call:FILL@0;wght@400;GRAD@0;opsz@24&query=Inter+
+### Inter
+
+[Please click on this link to download the font](https://fonts.google.com/specimen/Inter?selected=Material+Symbols+Outlined:call:FILL@0;wght@400;GRAD@0;opsz@24&query=Inter+)
 
 **Paragraps**  
 Inter Regular 400  
 Fontsize: 18px  
 Line height: 26px  
 Paragraph height: 30px
+Letter spacing: -0.4px
 
 **Header 1**  
-Inter Black 900 (Italic)  
-80px
+Inter Black 900 (Uppercase, Italic)  
+40px
+Line height: 40px
+Letter spacing: -0.8px
 
 **Header 2**  
-Inter Black 900 (Italic)  
-40px
+Inter Black 900 (Uppercase)
+80px
+Line height: 80px
+Letter spacing: -0.4px
 
 **Header 3**  
-Inter Black 900 (Italic)  
+Inter Black 900 (Uppercase, Italic)  
 20px
+Line height: 20px
+Letter spacing: -0.4px
 
 **Header 4, 5, 6**  
-Inter Black 700 (Uppercase, Italic)  
+Inter Bold 700 (Uppercase, Italic)  
 18px
+Line height: 18px
+Letter spacing: -0.4px
 
-# SVG files
+**Quotes**  
+Inter Black 900 (Italic)  
+24px
+Line height: 32px
+Letter spacing: -0.8px
 
-Provided in the assetsfolder are the following folders:
+**Hyperlinks**  
+Inter (Italic)  
+18px
+Line height: auto
+Letter spacing: 0%
 
-arrows
-Arrows are named in chronological order according to the flow of the page
-Arrow mobile
+**Short text**  
+Inter Regular 400
+16px
+Line height: 30px
+Letter spacing: -0.8px
 
+**Faded text**  
+Inter Regular 400
+14px
+Line height: auto
+Letter spacing: -0.8px
+
+# Available states for buttons, hyperlinks and inputs
+
+Please se FIGMA for prototypes.
+
+### Buttons
+
+Primary button states:  
+DEFAULT - HOVER - ON CLICKED - DISABLED
+
+---
+
+Secondary buttons  
+DEFAULT - HOVER - ON CLICKED - DISABLED
+
+---
+
+### Hyperlinks
+
+DEFAULT - HOVER - ACTIVE - VISITED
+
+---
+
+### Input
+
+DEFAULT - HOVER
+
+# Illustrations and SVG files
+
+[ARROWS](arrows) are named in chronological order according to the flow of the page as well as organised into mobile, tablet and desktop with the following scrolleffect:  
+[CodePen for scroll effect on arrows](https://codesandbox.io/p/sandbox/grace-scroll-rjkk8s?file=%2Findex.html%3A14%2C60)  
+The documentation for the Locomotive dependency is found here:
+[Locomotive documentation](https://scroll.locomotive.ca/docs/#/)
+
+[LAMP](lamp) illustration requires the following animation:
 [CodePen for lamp](https://codepen.io/Oskar-Landstr-m/pen/LYvdapz)
+
+[HEADER BACKGROUND](background-header) This illustration is only used for the top of the page as a background.
+
+[PATTERN BACKGROUND](background-pattern) Repeat this pattern as an added texture on top of elements, please see design for placements.
+
+[SECTION CURVE](background-sections) is used to elongate rounded div-backgrounds, please se FIGMA for correct border radius.
+
+[COOKIES](cookies) illustration is used for the cookiebar, feel free to use either png or svg format. The entire cookiebar should float across the page and is only displayed after a first initial scroll, with a margin of 10vh.
+
+[LOGO](logo) provided logos are as follow: flat white, flat black, green and pink. Please see FIGMA for required backgrounds and placement.
+
+[MENU](menu) as the menubutton at the top of the page.
+
+[SERVICE BUTTONS](services) complete illustrations for the services section as svg-files.
 
 # Favicons
 
-### Place the files in the root directory of your website
-
-android-chrome-192x192_darkmode.png  
-android-chrome-192x192_lightmode.png  
-android-chrome-512x512_darkmode.png  
-android-chrome-512x512_lightmode.png  
-apple-touch-icon_darkmode.png  
-apple-touch-icon_lightmode.png  
-favicon-16x16_darkmode.png  
-favicon-16x16_lightmode.png  
-favicon-32x32_darkmode.png  
-favicon-32x32_lightmode.png  
-favicon_darkmode.ico  
-favicon_lightmode.ico  
-site.webmanifest
-
-### Next, copy the following link tags and paste them into the head of your HTML
+Make sure to keep the files in the [favicon](favicon) folder in the root directory of your website. Next, copy the following link tags and paste them into the head of your HTML:
 
 ```html
 <link
@@ -119,28 +195,18 @@ site.webmanifest
 
 # Images
 
-hej
-Links to used images via Unsplash:
+Links to images via Unsplash:
 
-- Black and white abstract portrait  
-  https://unsplash.com/photos/man-sitting-on-floor-ZNOtwtFUvhk
+[Black and white abstract portrait](https://unsplash.com/photos/man-sitting-on-floor-ZNOtwtFUvhk)
 
----
+[Clay and orange](https://unsplash.com/photos/orange-fruit-on-balancing-fragments-wjShKmCbO_4)
 
-- Clay and orange  
-  https://unsplash.com/photos/orange-fruit-on-balancing-fragments-wjShKmCbO_4
+[Camel leather sofa](https://unsplash.com/photos/brown-leather-2-seat-sofa-bpg-ngqrPc8)
 
----
+[Pancakes](https://unsplash.com/photos/baked-pancakes-eeqbbemH9-c)
 
-- camel leather sofa  
-  https://unsplash.com/photos/brown-leather-2-seat-sofa-bpg-ngqrPc8
+[Juices](https://unsplash.com/photos/five-assorted-bottles-on-brown-table-beside-two-pineapples-Kx8DDqb6Wbw)
 
----
+# Footer
 
-- Pancakes  
-  https://unsplash.com/photos/baked-pancakes-eeqbbemH9-c
-
----
-
-- Juices  
-  https://unsplash.com/photos/five-assorted-bottles-on-brown-table-beside-two-pineapples-Kx8DDqb6Wbw
+The footer with its entire content is displayed only at the end of the page, not static throughout the site.
