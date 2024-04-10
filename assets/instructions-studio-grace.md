@@ -146,7 +146,9 @@ The documentation for the Locomotive dependency is found here:
 [MENU](menu) as the menubutton at the top of the page. On hover, the png should tilt 15degrees with the nail as axis and with a bouncy animation on 800ms time. (See Figma for prototype)
 When scrolling down, after 100vh an [icon](https://www.flaticon.com/free-icon/menu_151409) is shown instead with the color Onyx (#1E1E1E) at size 45x45 and margin 15px. When scrolling up to the first 100vh the menu icon should disappear again.
 
-[SERVICE BUTTONS](services) complete illustrations for the services section as svg-files.
+[SERVICES](services) complete illustrations for the services section as svg-files.
+
+[SOCIALS](socials) icons for Facebook, X and Instagram.
 
 #### IMAGES
 
