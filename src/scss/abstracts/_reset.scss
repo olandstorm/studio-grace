@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*:focus {
+  outline: 1.5px solid $focus-color;
+}
+
+::placeholder {
+  color: $placeholder-color;
+}
+
+body {
+  font-family: $font-type;
+  background-color: $bg-color;
+  color: $color;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.hidden {
+  display: none !important;
+}

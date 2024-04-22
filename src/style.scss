@@ -1,0 +1,24 @@
+@import 'scss/abstracts/variables';
+@import 'scss/abstracts/reset';
+
+@import 'scss/base/base';
+
+@import 'scss/components/buttons';
+@import 'scss/components/cookie';
+@import 'scss/components/hyperlinks';
+@import 'scss/components/input';
+
+@import 'scss/sections/footer';
+@import 'scss/sections/menu';
+
+@media screen and (min-width: 744px) {
+  @import 'scss/layout/tablet';
+}
+
+@media screen and (min-width: 1440px) {
+  @import 'scss/layout/desktop';
+}
+
+@media (hover: hover) {
+  @import 'scss/abstracts/hover';
+}

@@ -1,0 +1,14 @@
+input {
+  background: $input-bg-color;
+  border: 1.5px solid $input-border-color;
+  color: $input-text-color;
+  border-radius: 4px;
+  padding: 5px 4px;
+}
+
+input:hover {
+  background-color: $input-bg-hover;
+}
+input:focus {
+  background-color: $input-bg-focus;
+}
