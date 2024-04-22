@@ -1,0 +1,29 @@
+.header_container {
+  background-image: url('img/background/background-header.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 567px;
+
+  .grace_logo_img {
+    margin: auto;
+    height: 185px;
+    width: auto;
+    display: block;
+    position: relative;
+    top: 62px;
+  }
+
+  .menu_icon_container {
+    cursor: pointer;
+    height: 58px;
+    width: 92px;
+    background-image: url('img/menu/menu.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 288px;
+    right: 77px;
+  }
+}
