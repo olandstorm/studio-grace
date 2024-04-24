@@ -1,0 +1,30 @@
+.cookie_bar {
+  z-index: 999;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $flamingo;
+  color: rgba($onyx, 0.8);
+  border-radius: 8px;
+  padding: 50px 19px 35px;
+
+  .cookie_icon {
+    width: 118px;
+    height: 98px;
+    background-image: url('img/cookies/cookies_small.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -55px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .cookie_text {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,18 @@
+a:hover {
+  color: $a-hover;
+}
+
+a:visited:hover {
+  color: $a-visited;
+}
+
+.link_effect:hover::before,
+.link_effect:hover::after {
+  width: 100%;
+  opacity: 1;
+}
+
+.link_effect:hover:active::before {
+  width: 0;
+  opacity: 0;
+}

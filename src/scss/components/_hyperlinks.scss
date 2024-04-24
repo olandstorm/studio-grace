@@ -3,18 +3,50 @@ a {
   color: $a-color;
 }
 
-a:hover {
-  color: $a-hover;
-}
-
 a:active {
   color: $a-active;
 }
 
-a:visited {
+a.link_effect:visited {
   color: $a-visited;
 }
 
-a:visited:hover {
-  color: $a-hover;
+.link_effect {
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.link_effect::before,
+.link_effect::after {
+  content: '';
+  height: 1px;
+  width: 0;
+  background-color: $a-hover;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-transition: width 250ms ease-in-out, opacity 250ms ease-in-out;
+  transition: width 250ms ease-in-out, opacity 250ms ease-in-out;
+  opacity: 0;
+}
+
+.link_effect::before {
+  top: 2px;
+}
+
+.link_effect::after {
+  bottom: 2px;
+}
+
+.link_effect:active::before {
+  width: 0;
+  opacity: 0;
+}
+
+.link_effect:active::after {
+  width: 100%;
+  opacity: 1;
 }

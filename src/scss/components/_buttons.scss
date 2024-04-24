@@ -1,19 +1,28 @@
 button {
   background-color: $btn-bg-color;
-  border: 1.5px solid $btn-border-color;
+  border: solid 2px $btn-border-color;
   color: $btn-text-color;
-  border-radius: 4px;
-  padding: 4px 10px;
-  text-transform: uppercase;
+  font-family: $font-family;
+  font-weight: 900;
+  font-size: 1.125rem;
+  border-radius: 7px;
+  min-height: 40px;
+  padding: 9px 23px;
   cursor: pointer;
+  box-shadow: 0 5px $onyx;
 }
 
 button:hover {
   background-color: $btn-bg-hover;
-  border: 1.5px solid $btn-border-hover;
+  border: 2px solid $btn-border-hover;
 }
 
 button:active {
   background-color: $btn-bg-active;
-  border: 1.5px solid $btn-border-active;
+  border: 2px solid $btn-border-active;
+  box-shadow: none;
+}
+
+.cookie_btn {
+  background-color: $salmon;
 }

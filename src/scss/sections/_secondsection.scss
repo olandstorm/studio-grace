@@ -1,0 +1,19 @@
+.second_section {
+  background-color: $dark-pine;
+  background-image: url('img/background-pattern/boxpattern_50.png');
+  position: relative;
+  background-size: 25%;
+  background-repeat: repeat;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px 10px;
+
+  .photo_container {
+    background-color: $dark-pine;
+    width: 100%;
+    margin: 75px 0 30px;
+    height: 500px;
+  }
+}
