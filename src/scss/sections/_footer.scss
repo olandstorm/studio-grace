@@ -1,0 +1,77 @@
+.footer_section {
+  background-color: $dark-pine;
+  position: relative;
+  padding-top: 92px;
+  background-image: url('img/logo/studio_grace_logo_white_10.svg');
+  background-size: 233px 201px;
+  background-repeat: no-repeat;
+  background-position: 50% 230px;
+
+  .footer_menu {
+    margin: 0 45px 61px;
+
+    .footer_menu_header {
+      padding-bottom: 22px;
+      padding-top: 33px;
+    }
+    .footer_link {
+      margin: 7px 0;
+    }
+    .social_icon {
+      width: 35px;
+      height: 35px;
+      display: inline-block;
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin-right: 17px;
+    }
+
+    .facebook_icon {
+      background-image: url('img/socials/facebook.svg');
+    }
+    .instagram_icon {
+      background-image: url('img/socials/instagram.svg');
+    }
+    .x_icon {
+      background-image: url('img/socials/x.svg');
+    }
+  }
+
+  .newsletter_article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 285px;
+    margin: auto;
+
+    .newsletter_header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .newsletter_form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 20px;
+      width: 100%;
+      padding-bottom: 57px;
+
+      .newsletter_input {
+        width: 100%;
+      }
+    }
+  }
+
+  .copy_legal_article {
+    padding-bottom: 39px;
+
+    .copy_legal_text {
+      text-align: center;
+
+      .copy_legal_text_space {
+        padding-top: 0.865rem;
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 import { gsap } from 'gsap';
 
 export default function menuIconAnimation() {
-  const menuIcon = document.querySelector('#menuIconContainer');
+  const menuIcon = document.querySelector('#menuIconButton');
 
   if (menuIcon) {
     menuIcon.addEventListener('mouseenter', () => {

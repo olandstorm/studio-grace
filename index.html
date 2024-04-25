@@ -54,7 +54,7 @@
     <title>Studio Grace</title>
   </head>
   <body>
-    <header class="header_container">
+    <header class="header_section">
       <img
         src="img/logo/studio_grace_logo_green.png"
         alt="Logo for Studio Grace with green details"
@@ -62,7 +62,7 @@
         height="739"
         class="grace_logo_img"
       />
-      <div class="menu_icon_container" id="menuIconContainer"></div>
+      <button class="menu_icon_button" id="menuIconButton"></button>
     </header>
     <section class="first_section">
       <div class="first_curve_dark"></div>
@@ -106,6 +106,59 @@
       </p>
       <button class="cookie_btn" id="cookieBtn">I love them</button>
     </section>
+    <footer class="footer_section">
+      <div class="footer_overlay">
+        <div class="background_logo"></div>
+      </div>
+      <nav class="footer_menu">
+        <ul>
+          <li><h3 class="footer_menu_header">Start a journey</h3></li>
+          <li><a href="#" class="footer_link link_effect">Contact us</a></li>
+          <li>
+            <a href="#" class="footer_link link_effect">Book a session</a>
+          </li>
+          <li>
+            <a href="#" class="footer_link link_effect">Book a studio</a>
+          </li>
+          <li><a href="#" class="footer_link link_effect">FAQ</a></li>
+          <li><h3 class="footer_menu_header">About us</h3></li>
+          <li><a href="#" class="footer_link link_effect">Our studios</a></li>
+          <li><a href="#" class="footer_link link_effect">The vision</a></li>
+          <li><a href="#" class="footer_link link_effect">Our team</a></li>
+          <li><h3 class="footer_menu_header">Follow us</h3></li>
+          <li>
+            <a href="#" class="social_icon facebook_icon"></a
+            ><a href="#" class="social_icon x_icon"></a
+            ><a href="#" class="social_icon instagram_icon"></a>
+          </li>
+        </ul>
+      </nav>
+      <article class="newsletter_article">
+        <h3 class="newsletter_header">
+          Sign up for our newsletter,
+          <span class="new_line_mobile new_line_desktop"
+            >no spams, just love!</span
+          >
+        </h3>
+        <form class="newsletter_form">
+          <input
+            type="text"
+            class="input_white newsletter_input"
+            placeholder="Your email"
+            required
+          />
+          <button type="submit" class="newsletter_button">Sign up!</button>
+        </form>
+      </article>
+      <article class="copy_legal_article">
+        <p class="copy_legal_text faded_text">
+          &copy; Studio Grace 2024 All rights reserved
+          <span class="new_line_mobile copy_legal_text_space"
+            >Privacy policy | Cookies policy</span
+          >
+        </p>
+      </article>
+    </footer>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

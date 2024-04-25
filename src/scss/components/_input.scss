@@ -1,9 +1,9 @@
 input {
   background: $input-bg-color;
-  border: 1.5px solid $input-border-color;
+  border: 2px solid $input-border-color;
   color: $input-text-color;
-  border-radius: 4px;
-  padding: 5px 4px;
+  border-radius: 16px;
+  padding: 10px 16px;
 }
 
 input:hover {
@@ -11,4 +11,29 @@ input:hover {
 }
 input:focus {
   background-color: $input-bg-focus;
+}
+
+.input_white {
+  border: 1.5px solid $mint-condition;
+  color: $dark-pine;
+}
+
+.input_white:hover {
+  background-color: $mint-condition;
+}
+
+.input_white:focus {
+  background-color: $mint-condition;
+}
+
+.input_white::placeholder {
+  color: $mint-condition;
+}
+
+.input_white:hover::placeholder {
+  color: $dark-pine;
+}
+
+.input_white:focus::placeholder {
+  color: $dark-pine;
 }

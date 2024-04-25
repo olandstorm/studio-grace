@@ -1,4 +1,4 @@
-.header_container {
+.header_section {
   background-image: url('img/background/background-header.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -14,9 +14,12 @@
     top: 62px;
   }
 
-  .menu_icon_container {
+  .menu_icon_button {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
     cursor: pointer;
-    height: 58px;
+    height: 60px;
     width: 92px;
     background-image: url('img/menu/menu.png');
     background-size: contain;
