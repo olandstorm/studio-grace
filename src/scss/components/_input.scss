@@ -4,6 +4,8 @@ input {
   color: $input-text-color;
   border-radius: 16px;
   padding: 10px 16px;
+  font-size: 1.125rem;
+  font-weight: 700;
 }
 
 input:hover {
@@ -15,15 +17,17 @@ input:focus {
 
 .input_white {
   border: 1.5px solid $mint-condition;
-  color: $dark-pine;
+  color: $mint-condition;
 }
 
 .input_white:hover {
   background-color: $mint-condition;
+  color: $dark-pine;
 }
 
 .input_white:focus {
   background-color: $mint-condition;
+  color: $dark-pine;
 }
 
 .input_white::placeholder {
