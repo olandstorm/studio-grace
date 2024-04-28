@@ -20,6 +20,14 @@
   text-transform: lowercase;
 }
 
+*:hover::placeholder {
+  color: $mint-condition;
+}
+
+*:active::placeholder {
+  color: $mint-condition;
+}
+
 body {
   font-family: $font-family;
   background-color: $bg-color;

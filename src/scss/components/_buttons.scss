@@ -24,6 +24,18 @@ button:active {
   box-shadow: none;
 }
 
+.secondary_button {
+  background-color: $flamingo;
+}
+
+.secondary_button:hover {
+  background-color: $salmon;
+}
+
+.secondary_button:active {
+  background-color: $salmon;
+}
+
 .cookie_btn {
   background-color: $salmon;
 }

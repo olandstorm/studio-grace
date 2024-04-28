@@ -1,0 +1,42 @@
+.contact_section {
+  position: relative;
+  background-color: $burnt-yellow;
+  background-image: url('img/background-pattern/boxpattern.png');
+  background-size: 15%;
+  background-repeat: repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .contact_article {
+    padding: 60px 0 45px;
+    width: 286px;
+    position: relative;
+
+    .lamp_SVG {
+      cursor: pointer;
+      width: 171px;
+      height: 145px;
+      position: absolute;
+      left: 111px;
+      top: 64px;
+    }
+
+    .contact_header {
+      color: $dark-pine;
+    }
+
+    .contact_form {
+      width: 100%;
+      padding-top: 25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 30px;
+
+      .contact_input {
+        width: 100%;
+      }
+    }
+  }
+}
