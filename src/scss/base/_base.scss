@@ -32,6 +32,20 @@ p {
   line-height: 1.625rem;
 }
 
+.quote_text {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: -0.8px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.quote_character {
+  font-size: 4rem;
+  font-weight: 900;
+  font-style: italic;
+}
+
 .faded_text {
   font-size: 0.875rem;
   opacity: 0.7;
@@ -47,4 +61,20 @@ p {
 
 .new_line_mobile {
   display: block;
+}
+
+.start_quote,
+.end_quote {
+  position: absolute;
+}
+
+.start_quote {
+  top: 24px;
+  left: 27px;
+}
+
+.end_quote {
+  transform: rotate(180deg);
+  right: 26px;
+  bottom: 10px;
 }

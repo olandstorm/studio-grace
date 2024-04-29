@@ -1,11 +1,14 @@
 .first_section {
   background-color: $burnt-yellow;
   border-radius: 100px 0 0 0;
-  width: 100%;
   margin-top: 25px;
-  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  row-gap: $margin-yellow;
+  padding: $margin-yellow 0;
   position: relative;
-  border: solid rgba($color: #ffffff, $alpha: 0.5);
+  border: solid $semi-white;
   border-width: 0 0 10px 0;
 
   .first_curve_dark {
@@ -21,15 +24,13 @@
   }
 
   .header_article {
-    background-color: rgb(255, 255, 255, 0.5);
+    background-color: $semi-white;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 30px;
     border-radius: 100px 0 0 36px;
-    margin-left: 30px;
-    margin-bottom: 30px;
+    width: calc(100% - $margin-yellow);
 
     .first_arrow {
       width: 220px;
@@ -58,28 +59,31 @@
     .intro_header {
       margin: 60px 64px 60px 54px;
       text-align: right;
+      max-width: 560px;
     }
   }
 
   .first_photo {
-    margin-top: 30px;
-    border: 10px solid rgba($color: #ffffff, $alpha: 0.5);
+    display: block;
+    position: relative;
+    height: auto;
+    width: 100%;
+    border: $border-yellow;
     border-radius: 30px;
-    height: 315px;
-    width: auto;
-    position: absolute;
-    left: -85px;
+    align-self: flex-start;
+    left: -$margin-yellow;
   }
 
   .intro_article {
-    margin: 405px 0 0 30px;
     background-color: $dark-pine;
-    border: solid #fdeac7;
+    border: solid $semi-yellow;
     border-width: 10px 0 10px 10px;
     border-radius: 36px 0 0 36px;
+    max-width: 538px;
+    width: calc(100% - $margin-yellow);
 
     .intro_text {
-      margin: 30px;
+      margin: $margin-yellow;
       position: relative;
       z-index: 100;
     }

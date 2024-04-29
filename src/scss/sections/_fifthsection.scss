@@ -1,0 +1,128 @@
+.fifth_section {
+  background-color: $burnt-yellow;
+  position: relative;
+  padding-top: 30px;
+  border-top-right-radius: 100px;
+  border-bottom: 50px solid $semi-white;
+
+  .third_curve_dark {
+    background-image: url('img/section-curve/curveSVG_dark.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 154px;
+    height: 120px;
+    position: absolute;
+    left: 0;
+    top: -120px;
+    transform: scaleX(-1);
+  }
+
+  .services_cards_article {
+    background-color: $mint-condition;
+    position: relative;
+    border-radius: 0 100px 100px 0;
+    margin-right: 10px;
+    padding: 30px 20px 90px 30px;
+
+    .first_grey_curve {
+      background-image: url('img/section-curve/curveSVG_grey.svg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: right;
+      width: 222px;
+      height: 138px;
+      position: absolute;
+      left: 0;
+      top: -138px;
+      transform: scaleX(-1);
+    }
+
+    .button_container {
+      display: flex;
+      flex-direction: column;
+      row-gap: 30px;
+      align-items: flex-start;
+      max-width: 450px;
+      margin: auto;
+
+      .service_button {
+        box-shadow: none;
+        border: none;
+        background: transparent;
+        padding: 0;
+      }
+
+      .book_team_button {
+        width: 252px;
+        height: 219px;
+        background-image: url('img/services/book-our-creative-team.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      .book_studio_button {
+        width: 275px;
+        height: 210px;
+        background-image: url('img/services/book-our-studio.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        align-self: flex-end;
+      }
+
+      .book_item_button {
+        width: 253px;
+        height: 210px;
+        background-image: url('img/services/rent-interior-items.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+
+    .second_grey_curve {
+      background-image: url('img/section-curve/curveSVG_grey.svg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: right;
+      width: 222px;
+      height: 138px;
+      position: absolute;
+      left: 0;
+      bottom: -138px;
+      transform: rotate(180deg);
+    }
+  }
+
+  .last_quote_article {
+    padding: 100px 0 70px;
+    display: flex;
+    flex-direction: column;
+    row-gap: $margin-yellow;
+
+    .second_quote_article,
+    .third_quote_article {
+      position: relative;
+      width: 336px;
+      background-color: $dark-pine;
+      border: 10px solid $semi-yellow;
+      border-radius: 36px;
+      padding: 48px 30px 48px 65px;
+    }
+
+    .second_quote_article {
+      align-self: flex-end;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      border-right: 0;
+    }
+
+    .third_quote_article {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      border-left: 0;
+    }
+  }
+}
