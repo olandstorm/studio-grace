@@ -1,21 +1,16 @@
 button {
   background-color: $btn-bg-color;
+  min-height: 40px;
+  padding: 9px 23px;
   border: solid 2px $btn-border-color;
+  border-radius: 7px;
+  box-shadow: 0 5px $onyx;
   color: $btn-text-color;
   font-family: $font-family;
   font-weight: 900;
   font-size: 1.125rem;
-  border-radius: 7px;
-  min-height: 40px;
-  padding: 9px 23px;
-  cursor: pointer;
-  box-shadow: 0 5px $onyx;
   text-transform: lowercase;
-}
-
-button:hover {
-  background-color: $btn-bg-hover;
-  border: 2px solid $btn-border-hover;
+  cursor: pointer;
 }
 
 button:active {
@@ -26,10 +21,6 @@ button:active {
 
 .secondary_button {
   background-color: $flamingo;
-}
-
-.secondary_button:hover {
-  background-color: $salmon;
 }
 
 .secondary_button:active {

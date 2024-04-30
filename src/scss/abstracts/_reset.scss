@@ -9,36 +9,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-*:focus {
-  outline: 1.5px solid $focus-color;
-}
-
-::placeholder {
-  color: $placeholder-color;
-  font-size: 1.125rem;
-  font-weight: 700;
-  text-transform: lowercase;
-}
-
-*:hover::placeholder {
-  color: $mint-condition;
-}
-
-*:active::placeholder {
-  color: $mint-condition;
-}
-
-body {
-  font-family: $font-family;
-  background-color: $bg-color;
-  color: $color;
-}
-
 ol,
 ul {
   list-style: none;
-}
-
-.hidden {
-  display: none !important;
 }

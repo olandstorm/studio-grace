@@ -1,3 +1,7 @@
+*:hover::placeholder {
+  color: $mint-condition;
+}
+
 a:hover {
   color: $a-hover;
 }
@@ -15,4 +19,27 @@ a:visited:hover {
 .link_effect:hover:active::before {
   width: 0;
   opacity: 0;
+}
+
+button:hover {
+  background-color: $btn-bg-hover;
+  border: 2px solid $btn-border-hover;
+}
+
+.secondary_button:hover {
+  background-color: $salmon;
+}
+
+input:hover {
+  background-color: $input-bg-hover;
+  color: $input-text-hover;
+}
+
+.input_white:hover {
+  background-color: $mint-condition;
+  color: $dark-pine;
+}
+
+.input_white:hover::placeholder {
+  color: $dark-pine;
 }

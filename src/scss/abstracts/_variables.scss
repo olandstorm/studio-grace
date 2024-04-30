@@ -5,45 +5,46 @@ $burnt-yellow: #fcd68f;
 $green-pea: #629076;
 $onyx: #1e1e1e;
 $salmon: #f1c2a6;
+$white: #ffffff;
 $semi-white: #ffffff80;
 $semi-yellow: #fdeac7;
 
-$bg-color: #e8e8e8;
-$color: #e8e8e8;
+$bg-color: $mint-condition;
+$color: $mint-condition;
 
-$h-color: #629076;
-$h2-color: #365243;
+$h-color: $green-pea;
+$h2-color: $dark-pine;
 
-$a-color: #e8e8e8;
-$a-active: #e8e8e8;
-$a-hover: #e8e8e8;
-$a-visited: #f1c2a6;
+$a-color: $mint-condition;
+$a-active: $mint-condition;
+$a-hover: $mint-condition;
+$a-visited: $salmon;
 
-$btn-bg-color: #fcd68f;
-$btn-bg-active: #f49c98;
-$btn-bg-hover: #f49c98;
-$btn-text-color: #1e1e1e;
-$btn-text-active: #1e1e1e;
-$btn-text-hover: #1e1e1e;
-$btn-border-color: #1e1e1e;
-$btn-border-active: #1e1e1e;
-$btn-border-hover: #1e1e1e;
+$btn-bg-color: $burnt-yellow;
+$btn-bg-active: $flamingo;
+$btn-bg-hover: $flamingo;
+$btn-text-color: $onyx;
+$btn-text-active: $onyx;
+$btn-text-hover: $onyx;
+$btn-border-color: $onyx;
+$btn-border-active: $onyx;
+$btn-border-hover: $onyx;
 
 $input-bg-color: transparent;
-$input-bg-focus: #365243;
-$input-bg-hover: #365243;
-$input-text-color: #365243;
-$input-text-focus: #e8e8e8;
-$input-text-hover: #e8e8e8;
-$input-border-color: #365243;
-$input-border-focus: #ffffff;
-$input-border-hover: #ffffff;
-$placeholder-color: #365243;
+$input-bg-focus: $dark-pine;
+$input-bg-hover: $dark-pine;
+$input-text-color: $dark-pine;
+$input-text-focus: $mint-condition;
+$input-text-hover: $mint-condition;
+$input-border-color: $dark-pine;
+$input-border-focus: $white;
+$input-border-hover: $white;
+$placeholder-color: $dark-pine;
 
-$focus-color: #e8e8e874;
+$focus-color: rgba($mint-condition, 0.455);
 
 $font-family: 'Inter', sans-serif;
 
-$margin-yellow: 30px;
+$space-between: 30px;
 
 $border-yellow: 10px solid $semi-white;

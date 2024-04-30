@@ -8,10 +8,6 @@ input {
   font-weight: 700;
 }
 
-input:hover {
-  background-color: $input-bg-hover;
-  color: $input-text-hover;
-}
 input:focus {
   background-color: $input-bg-focus;
   color: $input-text-focus;
@@ -22,11 +18,6 @@ input:focus {
   color: $mint-condition;
 }
 
-.input_white:hover {
-  background-color: $mint-condition;
-  color: $dark-pine;
-}
-
 .input_white:focus {
   background-color: $mint-condition;
   color: $dark-pine;
@@ -34,10 +25,6 @@ input:focus {
 
 .input_white::placeholder {
   color: $mint-condition;
-}
-
-.input_white:hover::placeholder {
-  color: $dark-pine;
 }
 
 .input_white:focus::placeholder {
