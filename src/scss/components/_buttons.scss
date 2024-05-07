@@ -39,7 +39,7 @@ button:active {
   @include buttonReset;
   height: 60px;
   width: 92px;
-  background-image: url('img/menu/menu.png');
+  background-image: url('../img/menu/menu.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -70,27 +70,27 @@ button:active {
 .book_team_button {
   width: 252px;
   height: 219px;
-  background-image: url('img/services/book-our-creative-team.svg');
+  background-image: url('../img/services/book-our-creative-team.svg');
 }
 
 .book_studio_button {
   width: 275px;
   height: 210px;
-  background-image: url('img/services/book-our-studio.svg');
+  background-image: url('../img/services/book-our-studio.svg');
   align-self: flex-end;
 }
 
 .book_item_button {
   width: 253px;
   height: 210px;
-  background-image: url('img/services/rent-interior-items.svg');
+  background-image: url('../img/services/rent-interior-items.svg');
 }
 
 .menu_button {
   @include buttonReset;
   height: 45px;
   width: 45px;
-  background-image: url('img/menu/menu_button.webp');
+  background-image: url('../img/menu/menu_button.webp');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;

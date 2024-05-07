@@ -1,7 +1,7 @@
 .contact_section {
   position: relative;
   background-color: $burnt-yellow;
-  background-image: url('img/background-pattern/boxpattern.png');
+  background-image: url('../img/background-pattern/boxpattern.png');
   background-size: 15%;
   background-repeat: repeat;
   display: flex;
@@ -11,7 +11,7 @@
   .sixth_arrow {
     width: 299px;
     height: 220px;
-    background-image: url('img/arrows/arrow-mobile-6.svg');
+    background-image: url('../img/arrows/arrow-mobile-6.svg');
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;

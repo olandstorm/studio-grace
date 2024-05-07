@@ -6,7 +6,7 @@
   border-bottom: 50px solid $semi-white;
 
   .third_curve_dark {
-    background-image: url('img/section-curve/curveSVG_dark.svg');
+    background-image: url('../img/section-curve/curveSVG_dark.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -26,7 +26,7 @@
     padding: 30px 20px 90px 30px;
 
     .first_grey_curve {
-      background-image: url('img/section-curve/curveSVG_grey.svg');
+      background-image: url('../img/section-curve/curveSVG_grey.svg');
       background-size: contain;
       background-repeat: no-repeat;
       background-position: right;
@@ -50,7 +50,7 @@
     .fifth_arrow {
       width: 278px;
       height: 250px;
-      background-image: url('img/arrows/arrow-mobile-5.svg');
+      background-image: url('../img/arrows/arrow-mobile-5.svg');
       background-size: contain;
       background-repeat: no-repeat;
       position: absolute;
@@ -60,7 +60,7 @@
     }
 
     .second_grey_curve {
-      background-image: url('img/section-curve/curveSVG_grey.svg');
+      background-image: url('../img/section-curve/curveSVG_grey.svg');
       background-size: contain;
       background-repeat: no-repeat;
       background-position: right;
