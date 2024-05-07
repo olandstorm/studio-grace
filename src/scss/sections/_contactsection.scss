@@ -8,6 +8,18 @@
   flex-direction: column;
   align-items: center;
 
+  .sixth_arrow {
+    width: 299px;
+    height: 220px;
+    background-image: url('img/arrows/arrow-mobile-6.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 17%;
+    top: -145px;
+    z-index: 50;
+  }
+
   .contact_article {
     padding: 60px 0 45px;
     width: 286px;

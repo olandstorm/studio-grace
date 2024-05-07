@@ -27,6 +27,83 @@ button:active {
   background-color: $salmon;
 }
 
-.cookie_btn {
+.show_more_button {
+  z-index: 100;
+}
+
+.cookie_button {
   background-color: $salmon;
+}
+
+.menu_icon_button {
+  @include buttonReset;
+  height: 60px;
+  width: 92px;
+  background-image: url('img/menu/menu.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 288px;
+  right: 77px;
+}
+
+.menu_close_button {
+  @include buttonReset;
+  color: $dark-pine;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+
+  span {
+    font-size: 45px;
+  }
+}
+
+.service_button {
+  @include buttonReset;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.book_team_button {
+  width: 252px;
+  height: 219px;
+  background-image: url('img/services/book-our-creative-team.svg');
+}
+
+.book_studio_button {
+  width: 275px;
+  height: 210px;
+  background-image: url('img/services/book-our-studio.svg');
+  align-self: flex-end;
+}
+
+.book_item_button {
+  width: 253px;
+  height: 210px;
+  background-image: url('img/services/rent-interior-items.svg');
+}
+
+.menu_button {
+  @include buttonReset;
+  height: 45px;
+  width: 45px;
+  background-image: url('img/menu/menu_button.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 999;
+  display: none;
+}
+
+.menu_icon_button:active,
+.menu_close_button:active,
+.service_button:active,
+.menu_button:active {
+  @include buttonResetBgColor;
 }

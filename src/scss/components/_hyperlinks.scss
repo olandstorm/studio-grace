@@ -1,6 +1,7 @@
 a {
   text-decoration: none;
   color: $a-color;
+  font-size: 1.125rem;
 }
 
 a:active {
@@ -34,11 +35,11 @@ a.link_effect:visited {
 }
 
 .link_effect::before {
-  top: 2px;
+  top: -1px;
 }
 
 .link_effect::after {
-  bottom: 2px;
+  bottom: -1px;
 }
 
 .link_effect:active::before {
@@ -49,4 +50,17 @@ a.link_effect:visited {
 .link_effect:active::after {
   width: 100%;
   opacity: 1;
+}
+
+.menu_link.link_effect::before,
+.menu_link.link_effect::after {
+  background-color: $dark-pine;
+}
+
+a.menu_link:visited {
+  color: $dark-pine;
+}
+
+.menu_link {
+  color: $dark-pine;
 }

@@ -45,35 +45,18 @@
       align-items: flex-start;
       max-width: 450px;
       margin: auto;
+    }
 
-      .service_button {
-        box-shadow: none;
-        border: none;
-        background: transparent;
-        padding: 0;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-      }
-
-      .book_team_button {
-        width: 252px;
-        height: 219px;
-        background-image: url('img/services/book-our-creative-team.svg');
-      }
-
-      .book_studio_button {
-        width: 275px;
-        height: 210px;
-        background-image: url('img/services/book-our-studio.svg');
-        align-self: flex-end;
-      }
-
-      .book_item_button {
-        width: 253px;
-        height: 210px;
-        background-image: url('img/services/rent-interior-items.svg');
-      }
+    .fifth_arrow {
+      width: 278px;
+      height: 250px;
+      background-image: url('img/arrows/arrow-mobile-5.svg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: absolute;
+      right: 15%;
+      bottom: -185px;
+      z-index: 50;
     }
 
     .second_grey_curve {

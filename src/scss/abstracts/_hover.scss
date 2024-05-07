@@ -10,6 +10,14 @@ a:visited:hover {
   color: $a-visited;
 }
 
+.menu_link:hover {
+  color: $dark-pine;
+}
+
+.menu_link:visited:hover {
+  color: $dark-pine;
+}
+
 .link_effect:hover::before,
 .link_effect:hover::after {
   width: 100%;
@@ -42,4 +50,11 @@ input:hover {
 
 .input_white:hover::placeholder {
   color: $dark-pine;
+}
+
+.menu_icon_button:hover,
+.menu_close_button:hover,
+.service_button:hover,
+.menu_button:hover {
+  @include buttonResetBgColor;
 }

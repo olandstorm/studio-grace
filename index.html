@@ -11,6 +11,10 @@
       rel="stylesheet"
     />
     <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
       rel="apple-touch-icon"
       sizes="180x180"
       href="/apple-touch-icon_darkmode.png"
@@ -54,6 +58,38 @@
     <title>Studio Grace</title>
   </head>
   <body>
+    <button class="menu_button" id="menuButton" tabindex="-1">
+    </button>
+    <nav class="full_page_menu" id="fullPageMenu">
+      <button class="menu_close_button" id="menuCloseButton">
+        <span class="material-symbols-rounded"> close </span>
+      </button>
+      <ul class="menu_list">
+        <li>
+          <a href="#kj" class="menu_link link_effect">Book a studio</a>
+        </li>
+        <li>
+          <a href="#" class="menu_link link_effect">Book a session</a>
+        </li>
+        <li>
+          <a href="#" class="menu_link link_effect"
+            >Rent interior items</a
+          >
+        </li>
+        <li><a href="#" class="menu_link link_effect">Our studios</a></li>
+        <li><a href="#" class="menu_link link_effect">The vision</a></li>
+        <li><a href="#" class="menu_link link_effect">Our team</a></li>
+        <li><a href="#" class="menu_link link_effect">Contact us</a></li>
+        <li><a href="#" class="menu_link link_effect">FAQ</a></li>
+    </nav>
+    <section class="cookie_bar" id="cookieBar">
+      <div class="cookie_icon"></div>
+      <p class="cookie_text">
+        We sprinkle cookies for a tastier website experience! By nibbling along,
+        you agree. Learn more in our Cookie Policy.
+      </p>
+      <button class="cookie_button" id="cookieBtn">I love them</button>
+    </section>
     <header class="header_section">
       <img
         src="img/logo/studio_grace_logo_green.png"
@@ -87,7 +123,7 @@
           bring your vision to life.
         </p>
       </article>
-      <div class="second_arrow" data-scroll data-scroll-speed="-0.1"></div>
+      <div class="second_arrow" data-scroll data-scroll-speed="0.2"></div>
     </section>
     <section class="second_section">
       <article class="photo_container">
@@ -129,6 +165,7 @@
       <button class="show_more_button">Show more</button>
     </section>
     <section class="third_section">
+      <div class="third_arrow" data-scroll data-scroll-speed="0.2"></div>
       <blockquote class="first_quote_article">
         <span class="quote_character start_quote">“</span>
         <p class="quote_text">
@@ -145,6 +182,7 @@
         height="1280"
       />
       <article class="services_article">
+        <div class="fourth_arrow" data-scroll data-scroll-speed="0.2"></div>
         <h2 class="services_header">
           Ser<span class="new_line_header tilted_text">vices</span>
         </h2>
@@ -174,6 +212,7 @@
           <button class="service_button book_studio_button"></button>
           <button class="service_button book_item_button"></button>
         </div>
+        <div class="fifth_arrow" data-scroll data-scroll-speed="0.2"></div>
         <div class="second_grey_curve"></div>
       </article>
       <article class="last_quote_article">
@@ -196,15 +235,8 @@
         </blockquote>
       </article>
     </section>
-    <section class="cookie_bar" id="cookieBar">
-      <div class="cookie_icon"></div>
-      <p class="cookie_text">
-        We sprinkle cookies for a tastier website experience! By nibbling along,
-        you agree. Learn more in our Cookie Policy.
-      </p>
-      <button class="cookie_btn" id="cookieBtn">I love them</button>
-    </section>
     <section class="contact_section">
+      <div class="sixth_arrow" data-scroll data-scroll-speed="0.2"></div>
       <article class="contact_article">
         <svg
           id="lampSVG"
@@ -273,6 +305,11 @@
             </li>
             <li>
               <a href="#" class="footer_link link_effect">Book a studio</a>
+            </li>
+            <li>
+              <a href="#" class="footer_link link_effect"
+                >Rent interior items</a
+              >
             </li>
             <li><a href="#" class="footer_link link_effect">FAQ</a></li>
             <li><h3 class="footer_menu_header">About us</h3></li>
