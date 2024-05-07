@@ -1,5 +1,6 @@
-*:focus {
-  outline: 1.5px solid $focus-color;
+*:focus-visible {
+  outline: 4px solid $focus-color;
+  outline-offset: 2px;
 }
 
 ::placeholder {
